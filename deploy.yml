@@ -16,7 +16,7 @@
     - name: Copy NodeJS app
       copy:
         src: app.js
-        dest: home/San45/ansiblepulldemo
+        dest: /home/subhash/
 
     - name: Start NodeJS application
       shell: |
